@@ -1,2 +1,2 @@
-# mi-349-resources
-Files and Resources for MI 349 at Michigan State University
+# README-site-project
+The files that make up my README site project for MI 349.

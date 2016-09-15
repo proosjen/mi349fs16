@@ -1,7 +1,46 @@
 /* Add your CSS below */
 
 /* Example: adding a background color to the HTML body */
-html, body {
+div.container {
+  width: 100%;
+}
+
+body {
   /* #ccc is shorthand HEX for a light grey */
   background: #ccc;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+}
+
+header, footer {
+  padding: 1em;
+  color: white;
+  background-color: black;
+  clear: left;
+  text-align: center;
+}
+
+section {
+  float: left;
+  max-width: 400px;
+  margin: 0;
+  padding: 1em;
+}
+
+section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  margin-left: 450px;
+  border-left: 1px solid gray;
+  padding: 1em;
+  overflow: hidden;
+}
+
+article img {
+  position: absolute;
+  top: 125px;
+  right: 25px;
 }

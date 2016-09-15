@@ -15,7 +15,7 @@ body {
 header, footer {
   padding: 1em;
   color: white;
-  background-color: black;
+  background-color: #333333;
   clear: left;
   text-align: center;
 }
@@ -35,12 +35,13 @@ section ul {
 article {
   margin-left: 450px;
   border-left: 1px solid gray;
+  border-bottom: 1px solid gray;
   padding: 1em;
   overflow: hidden;
 }
 
 article img {
   position: absolute;
-  top: 125px;
+  top: 75px;
   right: 25px;
 }

@@ -1,0 +1,94 @@
+/*
+ * Start Bootstrap - Full Width Pics (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+  margin-top: 0px;
+}
+
+header {
+  padding: 75px 0;
+  font-color: black;
+}
+
+.header-heading {
+  margin: 30px 0;
+  font-size: 4em;
+}
+
+.header-lead {
+  margin: 30px 0;
+  font-size: 2em;
+  vertical-align: middle;
+}
+
+.image-bg-fluid-height,
+.image-bg-fixed-height {
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.image-bg-fluid-height {
+	background-color: grey;
+  padding: 100px 0;
+}
+
+.image-bg-fixed-height {
+	background-color: grey;
+  height: 450px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+    /*height: 450px;*/
+}
+
+li {
+    float: left;
+    padding: 50px;
+    text-align: center;
+    font-size: 2em;
+}
+
+
+/*.img-center {
+	margin: 0 auto;
+}*/
+
+section {
+    padding: 75px 0;
+}
+
+.section-heading {
+    margin: 30px 0;
+    font-size: 4em;
+}
+
+.section-lead {
+    margin: 30px 0;
+    text-align: left;
+}
+
+.section-paragraph {
+    margin: 30px 0;
+}
+
+
+@media(max-width:768px) {
+    section {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .section-heading {
+        font-size: 2em;
+    }
+}

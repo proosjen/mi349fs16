@@ -1,2 +1,2 @@
-# mi-349-resources
-Files and Resources for MI 349 at Michigan State University
+# mi349fs16 week-4
+A collection of files from week 4

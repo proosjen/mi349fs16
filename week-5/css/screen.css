@@ -14,7 +14,8 @@ h1 {
 }
 
 p {
-  padding: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   font-size: 25px;
   max-width: 800px;
   margin: 0 auto;
@@ -41,9 +42,18 @@ li a {
 }
 
 img {
-  padding: 30px;
+  border: 10px solid white;
+  border-radius: 20px;
 }
 
 .mast {
   background: #89cff0;
+}
+
+#home {
+  color: white;
+}
+
+#about {
+  color: #551A8B;
 }

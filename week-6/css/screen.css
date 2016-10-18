@@ -7,28 +7,25 @@ body {
   font-family: helvetica, sans-serif;
 }
 
-div {
-  border: 10px solid white;
+.note-card{
+  border: 8px solid black;
+  background: linear-gradient(white, pink);
   border-radius: 25px;
-  max-width: 800px;
+  max-width: 600px;
   max-height: 400px;
-  margin: 0 auto;
+  padding-left: 10px;
+  /*margin: 0 auto;*/
 }
 
-/*
-.note-card {
-  border: 10px solid white;
-  border-radius: 25px;
-  max-width: 800px;
-  max-height: 400px;
-  margin: 0 auto;
-}
-*/
-
-.recipeBasics {
+.note-card, .recipeBasics {
   float: left;
-  margin: 0 1.5%;
-  width: 30%;
+  margin: 0 3%;
+  width: 35%;
+  display: inline;
+}
+
+.recipeBasics img {
+  padding-left: 20px;
 }
 
 .recipeBasics ul {
@@ -36,16 +33,18 @@ div {
 }
 
 .recipeBasics li {
-  display: inline;
-  padding: 0px 10px 0px 10px;
+  padding: 2px;
+  font-size: 12px;
 }
 
-.ingredients {
-  float: right;
-  margin: 0 1.5%;
-  width: 60%;
+.note-card, .ingredients {
+  float: left;
+  margin: 0;
+  width: 55%;
+  display: inline;
 }
 
 .ingredients ul {
   list-style-type: none;
+  font-size: 14px;
 }

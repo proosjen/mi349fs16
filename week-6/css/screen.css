@@ -4,4 +4,48 @@
 body {
   /* #ccc is shorthand HEX for a light grey */
   background: #ccc;
+  font-family: helvetica, sans-serif;
+}
+
+div {
+  border: 10px solid white;
+  border-radius: 25px;
+  max-width: 800px;
+  max-height: 400px;
+  margin: 0 auto;
+}
+
+/*
+.note-card {
+  border: 10px solid white;
+  border-radius: 25px;
+  max-width: 800px;
+  max-height: 400px;
+  margin: 0 auto;
+}
+*/
+
+.recipeBasics {
+  float: left;
+  margin: 0 1.5%;
+  width: 30%;
+}
+
+.recipeBasics ul {
+  list-style-type: none;
+}
+
+.recipeBasics li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+
+.ingredients {
+  float: right;
+  margin: 0 1.5%;
+  width: 60%;
+}
+
+.ingredients ul {
+  list-style-type: none;
 }

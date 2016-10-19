@@ -3,18 +3,26 @@
 /* Example: adding a background color to the HTML body */
 body {
   /* #ccc is shorthand HEX for a light grey */
-  background: #ccc;
+  background: #66ffcc;
   font-family: helvetica, sans-serif;
 }
 
-.note-card{
+.gallery {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.note-card {
   border: 8px solid black;
-  background: linear-gradient(white, pink);
+  background: linear-gradient(white, #ffff99);
   border-radius: 25px;
   max-width: 600px;
   max-height: 400px;
   padding-left: 10px;
-  /*margin: 0 auto;*/
+  margin: 20px;
 }
 
 .note-card, .recipeBasics {
@@ -47,4 +55,19 @@ body {
 .ingredients ul {
   list-style-type: none;
   font-size: 14px;
+}
+
+.source-box {
+  border: 5px solid black;
+  background-color: white;
+  border-radius: 15px;
+  max-width: 180px;
+  max-height: 130px;
+  padding-left: 10px;
+  margin: 20px;
+}
+
+.source-box a {
+  font-family: helvetica, sans-serif;
+  color: black;
 }

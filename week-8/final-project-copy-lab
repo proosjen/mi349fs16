@@ -1,0 +1,31 @@
+final project copy lab
+
+home page
+  - minimal content on home page
+  - display my name
+  - tile theme
+  - links to social media
+
+about me page
+  - my name is Jenn Proos and I'm a junior at Michigan State University studying
+  computer science. since I was little, I've loved building things from scratch
+  solving brain-twisting puzzles. Combining my passion for front and back-end
+  technologies, I hope to become a full-stack developer.
+  - I decided to study computer science because you can look at each project as if
+  it were puzzle. We are given the pieces to come to a solution, however it is up
+  to us to figure out how to put the pieces together.
+  - at the end of the day, my end goal is to apply my skills towards an application
+  that will make someone's life easier. whether it's to improve the look and feel
+  of a web page or to build an application, I hope to use my passions towards the
+  most optimal product I can possible create.
+  - resume download option
+
+what i do page
+  - include some of my projects
+  - include briefs about what I'm currently working on
+  - images of my work
+  - list of technologies/ languages i'm comfortable with
+
+contact me page
+  - list my e-mail and phone number
+  - contact form with "submit" button that will e-mail me the message

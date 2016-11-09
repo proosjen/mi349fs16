@@ -7,15 +7,108 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- External link (relative) to your main stylesheet -->
-        <link rel="stylesheet" href="css/screen.css">
-
         <!-- External link (relative) to your javascript file -->
         <script src="js/index.js"></script>
+        <style>
+        body {
+          background: #fff;
+          margin: 0 auto;
+          font-family: cursive;
+        }
+        header, footer {
+            background: #3498db;
+        }
+        .content {
+            display: flex;
+        }
+        .content section {
+            padding: 1em;
+            flex: 1;
+        }
+        .content, .left-nav, .right-nav {
+            flex: 0 0 12em;
+            padding: 1em;
+        }
+        .content, .left-nav {
+            order: -1;
+        }
+        </style>
     </head>
-    <body>
-        <!-- Add your site content here -->
-        <!-- Relative URL image link example -->
-        <img src="images/northport.jpg" alt="Northport" />
+    <body class="basic">
+      <header>
+        <h1>Here's my super clever header.</h1>
+      </header>
+      <div class="content">
+          <div class="left-nav">
+            <p>
+              Pellentesque molestie viverra erat sit amet facilisis. In sollicitudin
+              posuere elit at faucibus. Praesent dolor tellus, rhoncus nec quam et,
+              vulputate semper justo. Curabitur congue elit augue, ut faucibus quam
+              accumsan a.
+            </p>
+            <p>
+              Praesent mollis pharetra augue ac placerat. Integer hendrerit
+              cursus mauris quis sollicitudin. Donec tempor aliquet mauris et auctor.
+              Donec ornare id lectus a dapibus. Curabitur ac magna eu ante commodo semper.
+            </p>
+          </div>
+          <section>
+            <p>
+              Ut metus leo, viverra ut pharetra non, egestas sit amet nisl. Duis dolor
+              metus, interdum id justo ac, sollicitudin tincidunt tortor. Fusce auctor
+              consectetur lorem, nec malesuada arcu eleifend feugiat. Nullam molestie
+              erat ut ante maximus, sed aliquam ante pulvinar.
+            </p>
+            <p>
+              Morbi magna lacus, tincidunt sit amet posuere non, egestas consequat
+              orci. Nam nibh eros, suscipit vitae maximus non, dictum ut nulla.
+              Maecenas interdum dui ex, eu feugiat diam vulputate et.
+            </p>
+            <p>
+              Aenean tincidunt purus a orci viverra, sed tempor urna
+              convallis. Nullam nulla nisl, mattis id pretium nec, sodales sit amet erat.
+              Maecenas elementum ut justo in tempus. Cum sociis natoque penatibus et
+              magnis dis parturient montes, nascetur ridiculus mus. Nullam congue est
+              et augue accumsan, ac lobortis velit hendrerit. Cras non tortor elit.
+            </p>
+            <p>
+              In malesuada lorem nisl, interdum hendrerit erat sagittis ac. Integer
+              vitae nisl placerat, varius ante at, sodales justo. Phasellus elementum
+              justo vel sem finibus, ac gravida sem placerat. Quisque ultrices eu
+              orci sit amet condimentum. Duis dictum libero at vestibulum aliquam.
+              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+              ridiculus mus. Fusce at ullamcorper enim. Integer vitae purus a ipsum
+              pretium placerat a nec erat. Interdum et malesuada fames ac ante
+              ipsum primis in faucibus.
+            </p>
+            <p>
+              Aliquam lacus nunc, dignissim in velit iaculis, convallis blandit
+              augue. Pellentesque sed neque vel nisi pellentesque sagittis. Mauris
+              tempor malesuada finibus. Nulla placerat justo non tempor placerat.
+              Donec elementum, lorem id eleifend lobortis, arcu dui hendrerit quam,
+              at dapibus leo nisi eu ipsum. Mauris eget pulvinar sapien. Class
+              aptent taciti sociosqu ad litora torquent per conubia nostra, per
+              inceptos himenaeos. Mauris vel condimentum mauris, eget lobortis ipsum.
+            </p>
+          </section>
+          <div class="right-nav">
+            <p>
+              Cras lacinia sapien in sodales interdum. Aliquam commodo eget lorem at consectetur.
+              Pellentesque eu sagittis lectus, ut vehicula leo. Maecenas in lectus ut ante
+              congue semper.
+            </p>
+            <p>
+              In ultricies, nunc ac dapibus convallis, diam elit placerat
+              metus, facilisis tristique arcu felis at nisl. Donec ante risus, malesuada
+              non feugiat at, sollicitudin ac dolor. Quisque sagittis venenatis dignissim.
+              Duis gravida orci id scelerisque semper. Cras lobortis est libero,
+              ut venenatis leo pretium in.
+            </p>
+          </div>
+        </div>
+        <footer>
+          <p>My even more clever footer</p>
+        </footer>
+      </div>
     </body>
 </html>

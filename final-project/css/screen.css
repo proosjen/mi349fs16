@@ -23,6 +23,46 @@
     animation-duration:1s;
     animation-delay: 3.5s
 }
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  /*flex-direction: row;*/
+  text-align: center;
+}
+
+.blurb, .me {
+  flex: 1 1 0;
+  height: 500px;
+}
+
+.blurb {
+  background-color: #8c8c8c;
+  max-width: 500px;
+}
+
+.blurb h2 {
+  font-size: 40px;
+  margin: 50px 0 0 0;
+  padding: 0 70px 0 70px;
+}
+
+.blurb p {
+  font-size: 25px;
+  line-height: 30px;
+  padding: 15px 50px 0 50px;
+}
+
+.me {
+  background-color: white;
+}
+
+.me p {
+  font-size: 25px;
+  line-height: 30px;
+  padding: 50px;
+}
+
 /* Example: adding a background color to the HTML body */
 body {
   /* #ccc is shorthand HEX for a light grey */
@@ -54,34 +94,6 @@ p.header {
   text-align: center;
   font-size: 25px;
   color: white;
-}
-
-article.blurb {
-  background-color: #8c8c8c;
-  background-size: cover;
-  position: absolute;
-  width: 100%;
-  height: 500px;
-  max-width: 500px;
-}
-
-article.blurb h2 {
-  font-size: 40px;
-  margin: 50px 0 0 0;
-}
-
-article.blurb p {
-  font-size: 25px;
-  line-height: 30px;
-  padding: 20px 0 0 0;
-}
-
-article.me {
-  background-color: white;
-  background-size: cover;
-  position: absolute;
-  width: 100%;
-  height: 500px;
 }
 
 ul.topnav {

@@ -22,7 +22,7 @@
     animation:fadeIn ease-in 1;
     animation-fill-mode:forwards;
     animation-duration:1s;
-    animation-delay: 3.5s
+    animation-delay: 2.5s
 }
 
 .content {
@@ -114,12 +114,20 @@ body {
   text-align: center;
 }
 
-header {
+.home-header {
   background-image: url('https://static.pexels.com/photos/1780/landscape-nature-clouds-cloudy.jpg');
   background-size: cover;
   animation: fadeIn 4s;
   width: 100%;
   height: 820px;
+}
+
+.what-i-do-header {
+  background-image: url('https://static.pexels.com/photos/2855/landscape-mountains-nature-lake.jpg');
+  background-size: cover;
+  animation: fadeIn 4s;
+  width: 100%;
+  height: 600px;
 }
 
 h1.header {
@@ -166,4 +174,8 @@ ul.topnav li a:hover {
 }
 
 #home {
+}
+
+#what-i-do {
+
 }

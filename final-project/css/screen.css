@@ -316,6 +316,32 @@ body {
   height: 820px;
 }
 
+.resume-header {
+  background-image: url('https://static.pexels.com/photos/2773/city-skyline-skyscrapers-top.jpg');
+  background-size: cover;
+  animation: fadeIn 4s;
+  width: 100%;
+  height: 820px;
+}
+
+.resume-header2 {
+  background-image: url('https://static.pexels.com/photos/52599/pexels-photo-52599.jpeg');
+  background-size: cover;
+  animation: fadeIn 4s;
+  width: 100%;
+  height: 820px;
+}
+
+.resume-img {
+  /*padding-top: 70px;*/
+  margin-top: 70px;
+  width: 75%;
+  height: auto;
+  border-radius: 50px;
+  border: 10px solid #ffcccc;
+}
+
+
 h1.header {
   font-family: 'Quicksand', sans-serif;
   text-align: center;
@@ -424,6 +450,24 @@ ul.topnav2 li a:hover {
     font-size: 30px;
 }
 
+.button{
+    background-color: #ffcccc;
+    border-radius: 8px;
+    color: white;
+    padding: 0px 20px;
+    margin-right: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 0px;
+}
+
+.button a {
+  color: white;
+  text-decoration: none;
+}
+
 #home {
 }
 
@@ -433,4 +477,7 @@ ul.topnav2 li a:hover {
 
 #contact {
 
+}
+
+#resume {
 }

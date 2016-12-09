@@ -213,8 +213,8 @@ textarea:hover {
 
 .skills p {
   font-size: 25px;
-  max-width: 700px;
-  line-height: 30px;
+  max-width: 900px;
+  line-height: 40px;
   padding-bottom: 30px;
   margin: 0 auto;
 }
@@ -466,6 +466,36 @@ ul.topnav2 li a:hover {
 .button a {
   color: white;
   text-decoration: none;
+}
+
+#clockdiv{
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    height: 200px;
+}
+
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #00BF96;
+    display: inline-block;
+}
+
+#clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #00816A;
+    display: inline-block;
+}
+
+.smalltext{
+    padding-top: 5px;
+    font-size: 16px;
 }
 
 #home {

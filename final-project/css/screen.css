@@ -60,7 +60,13 @@
 .me p {
   font-size: 25px;
   line-height: 30px;
-  padding: 50px;
+  padding: 40px 50px 0 50px;
+}
+
+.me img {
+  margin: 40px 0 0 0;
+  border: 7px solid white;
+  border-radius: 30px;
 }
 
 /* Example: adding a background color to the HTML body */

@@ -1,23 +1,14 @@
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
+  /*alert("Thanks for downloading!")
+  $("button").on("click", function() {
+    alert("Have a great day :)")
+  });*/
 
-$(function() {
-  $('a[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
+  function myFunction() {
+      var x;
+      if (confirm("Press a button!") == true) {
+          x = "Thanks for the download!";
+      } else {
+          x = "You pressed Cancel!";
+      }
+      document.getElementById("demo").innerHTML = x;
+  }

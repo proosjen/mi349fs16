@@ -249,7 +249,6 @@ textarea:hover {
 
 .connect {
   display: flex;
-  /*text-align: center;*/
 }
 
 .connect section {
@@ -333,7 +332,6 @@ body {
 }
 
 .resume-img {
-  /*padding-top: 70px;*/
   margin-top: 70px;
   width: 75%;
   height: auto;
@@ -450,24 +448,6 @@ ul.topnav2 li a:hover {
     font-size: 30px;
 }
 
-.button{
-    background-color: #ffcccc;
-    border-radius: 8px;
-    color: white;
-    padding: 0px 20px;
-    margin-right: 50px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-top: 0px;
-}
-
-.button a {
-  color: white;
-  text-decoration: none;
-}
-
 #clockdiv{
     font-family: 'Quicksand', sans-serif;
     color: #fff;
@@ -514,10 +494,94 @@ ul.topnav2 li a:hover {
 
 @media (max-width: 500px)
 {
-
+  ul.topnav li {
+    float: none;
+  }
+  ul.topnav li a {
+    padding: 5px;
+    display: block;
+  }
+  ul.topnav2 li {
+    float: none;
+  }
+  ul.topnav2 li a {
+    padding: 5px;
+    display: block;
+  }
+  h1.header {
+      font-size: 50px;
+  }
+  p.header {
+    font-size: 15px;
+  }
+  .me p {
+    font-size: 18px;
+    line-height: 20px;
+    padding: 20px 50px 0 50px;
+  }
+  .grid {
+    display: block;
+  }
+  .grid-cell {
+      padding: 10px;
+      background-color: white;
+      border-radius: 30px;
+      margin: 30px;
+      font-size: 20px;
+  }
+  .skills p {
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 20px;
+  }
+  #form {
+    width: 400px;
+  }
 }
 
 @media (max-width: 700px)
 {
-
+  ul.topnav li {
+    float: none;
+  }
+  ul.topnav li a {
+    padding: 5px;
+    display: block;
+  }
+  ul.topnav2 li {
+    float: none;
+  }
+  ul.topnav2 li a {
+    padding: 5px;
+    display: block;
+  }
+  h1.header {
+      font-size: 60px;
+  }
+  p.header {
+    font-size: 20px;
+  }
+  .me p {
+    font-size: 20px;
+    line-height: 22px;
+    padding: 20px 50px 0 50px;
+  }
+  .grid {
+    display: block;
+  }
+  .grid-cell {
+      padding: 10px;
+      background-color: white;
+      border-radius: 30px;
+      margin: 30px;
+      font-size: 23px;
+  }
+  .skills p {
+    font-size: 23px;
+    line-height: 30px;
+    padding-bottom: 20px;
+  }
+  #form {
+    width: 400px;
+  }
 }
